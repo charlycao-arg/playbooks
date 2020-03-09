@@ -1,5 +1,5 @@
 ---
--	name: creating the users.
+-	name: Creating the users.
   user:
     name: “{{ sname }}”
     password: “{{ correcto | password_hash(‘sha512’) }}”
